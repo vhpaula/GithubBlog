@@ -125,7 +125,7 @@ export function Repository() {
                                 </ProfileStatistic>
 
                                 <ProfileStatistic
-                                    statistc={repositoryData?.watchers}
+                                    statistc={`${repositoryData?.watchers} visualizações`}
                                 >
                                     <IoEyeSharp className={styles.customIcon} />
                                 </ProfileStatistic>
