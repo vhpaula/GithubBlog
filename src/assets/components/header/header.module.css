@@ -1,0 +1,119 @@
+.header {
+    width: 100%;
+    max-height: 212px;
+    display: flex;
+    align-items: center;
+    background: #0b1b2b;
+    position: block;
+    margin-top: 260px;
+    padding: 32px 40px;
+    border-radius: 10px;
+    -webkit-box-shadow: 0px 2px 28px 0px rgba(0, 0, 0, 0.2);
+    -moz-box-shadow: 0px 2px 28px 0px rgba(0, 0, 0, 0.2);
+    box-shadow: 0px 2px 28px 0px rgba(0, 0, 0, 0.2);
+}
+
+.headerContent {
+    width: 100%;
+    display: flex;
+    gap: 2rem;
+}
+
+.githubProfileInfo {
+    display: flex;
+    flex-direction: column;
+    gap: 8px;
+    width: 100%;
+}
+
+.githubUserImage {
+    width: 148px;
+    height: 148px;
+    border-radius: 8px;
+}
+
+.githubProfileName {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    gap: 1rem;
+}
+
+.githubProfileName > h1 {
+    font-weight: bold;
+    font-size: 24px;
+    line-height: 130%;
+}
+
+.githubProfileName > a {
+    display: flex;
+    align-items: center;
+    gap: 8px;
+    font-weight: bold;
+    font-size: 12px;
+    line-height: 160%;
+    color: #3294f8;
+    text-decoration: none;
+}
+
+.customIconLink {
+    fill: #3294f8; /* Defina a cor desejada aqui */
+    font-size: 12px; /* Defina o tamanho desejado aqui */
+}
+
+.githubProfileDescription {
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 160%;
+    text-align: left;
+    color: #afc2d4;
+}
+
+.githubProfileStatistics {
+    display: flex;
+    margin-top: 16px;
+}
+
+.githubProfileStatistics > ul {
+    display: flex;
+    gap: 24px;
+}
+
+.githubProfileStatistics > ul > li {
+    list-style: none;
+    display: flex;
+    align-items: center;
+    gap: 8px;
+
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 160%;
+    color: #c4d4e3;
+}
+
+.customIcon {
+    fill: #3a536b; /* Defina a cor desejada aqui */
+    font-size: 14px; /* Defina o tamanho desejado aqui */
+}
+
+@media (max-width: 800px) {
+    .header {
+        max-height: fit-content;
+    }
+
+    .headerContent {
+        width: 100%;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        flex-direction: column;
+        gap: 2rem;
+    }
+}
+
+@media (max-width: 520px) {
+    .githubProfileStatistics > ul {
+        display: flex;
+        flex-wrap: wrap;
+    }
+}

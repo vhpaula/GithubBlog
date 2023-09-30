@@ -1,0 +1,43 @@
+.cardPublicacao {
+    flex: 0 1 calc(50% - 10px); /* Calcula o tamanho para que dois cards caibam em uma linha */
+    margin-bottom: 20px; /* Espaçamento entre os cards verticalmente */
+    background-color: #112131;
+    padding: 32px;
+    box-sizing: border-box;
+    border-radius: 10px;
+    text-decoration: none;
+}
+
+.titleCard {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    margin-bottom: 20px;
+}
+
+.titleCard > p {
+    font-weight: bold;
+    font-size: 20px;
+    line-height: 160%;
+    color: #e7edf4;
+    max-width: 283px;
+}
+
+.titleCard > span {
+    font-weight: 400;
+    font-size: 14px;
+    line-height: 160%;
+    color: #7b96b2;
+}
+
+@media (max-width: 700px) {
+    .cardPublicacao {
+        flex: 0 1 calc(100%); /* Calcula o tamanho para que dois cards caibam em uma linha */
+        margin-bottom: 20px; /* Espaçamento entre os cards verticalmente */
+        background-color: #112131;
+        padding: 32px;
+        box-sizing: border-box;
+        border-radius: 10px;
+        text-decoration: none;
+    }
+}

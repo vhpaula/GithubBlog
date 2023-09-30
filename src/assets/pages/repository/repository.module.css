@@ -1,0 +1,101 @@
+.header {
+    display: flex;
+    align-items: center;
+    background: #0b1b2b;
+    position: block;
+    margin-top: 260px;
+    padding: 32px 40px;
+    border-radius: 10px;
+    -webkit-box-shadow: 0px 2px 28px 0px rgba(0, 0, 0, 0.2);
+    -moz-box-shadow: 0px 2px 28px 0px rgba(0, 0, 0, 0.2);
+    box-shadow: 0px 2px 28px 0px rgba(0, 0, 0, 0.2);
+}
+
+.headerContent {
+    width: 100%;
+    display: flex;
+    gap: 2rem;
+}
+
+.githubProfileInfo {
+    display: flex;
+    flex-direction: column;
+    gap: 8px;
+    width: 100%;
+}
+
+.githubProfileName {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+
+.githubProfileInfo > h1 {
+    font-weight: bold;
+    font-size: 24px;
+    line-height: 130%;
+    margin-top: 20px;
+}
+
+.githubProfileName > a {
+    display: flex;
+    align-items: center;
+    gap: 8px;
+    font-weight: bold;
+    font-size: 12px;
+    color: #3294f8 !important;
+    text-decoration: none;
+}
+
+.customIconLink {
+    fill: #3294f8; /* Defina a cor desejada aqui */
+    font-size: 12px; /* Defina o tamanho desejado aqui */
+    text-decoration: none;
+}
+
+.githubProfileDescription {
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 160%;
+    text-align: left;
+    color: #afc2d4;
+}
+
+.githubProfileStatistics {
+    display: flex;
+    margin-top: 16px;
+}
+
+.githubProfileStatistics > ul {
+    display: flex;
+    gap: 24px;
+}
+
+.githubProfileStatistics > ul > li {
+    list-style: none;
+    display: flex;
+    align-items: center;
+    gap: 8px;
+
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 160%;
+    color: #c4d4e3;
+}
+
+.customIcon {
+    fill: #3a536b; /* Defina a cor desejada aqui */
+    font-size: 14px; /* Defina o tamanho desejado aqui */
+}
+
+.main {
+    margin: 40px 32px;
+    padding-bottom: 60px !important;
+}
+
+.main > pre,
+.main > code {
+    max-width: 864px !important;
+    width: 100%;
+    overflow: auto;
+}
