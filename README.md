@@ -17,7 +17,7 @@
 <br>
 
 <p align="center">
-   <img alt="GithubBlog Preview" src="https://example.com/githubblog-preview.svg" width="100%">
+   <img alt="GithubBlog Preview" src="https://raw.githubusercontent.com/vhpaula/GithubBlog/5da1051c199cba83f0ef486d8a712a30f381d038/.github/preview.svg?token=ARGVY3SZNODBLJMQHBGFIMTFDBLJ6" width="100%">
 </p>
 
 <br>
