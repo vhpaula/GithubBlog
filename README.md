@@ -28,7 +28,7 @@
 
 O GithubBlog é uma aplicação desenvolvida em ReactJS que consome a API do GitHub para exibir informações sobre os repositórios de um usuário. Na rota principal ("/"), são exibidos detalhes do perfil do usuário, incluindo foto de perfil, bio, empresa, número de seguidores e um link para acessar o perfil no GitHub. Abaixo, são listados todos os repositórios públicos do usuário, permitindo a pesquisa por nome do repositório ou descrição do projeto. Clicando em um repositório, o usuário é redirecionado para a rota "/links", onde pode visualizar detalhes como título, descrição, tempo desde a criação do repositório, número de visualizações e o conteúdo do arquivo README.md. Além disso, há um botão para acessar o repositório diretamente.
 
--[Visite o projeto online]([https://github-blog-six-indol.vercel.app/])
+-[Visite o projeto online](https://github-blog-six-indol.vercel.app/)
 
 <br>
 <br>
