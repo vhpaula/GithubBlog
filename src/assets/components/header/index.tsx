@@ -53,7 +53,7 @@ export function Header() {
                     <div className={styles.githubProfileName}>
                         <h1>{profile?.name}</h1>
                         <Link
-                            to={profile?.html_url}
+                            to={profile?.html_url || ""}
                             target="_blank"
                             rel="noopener noreferrer"
                         >

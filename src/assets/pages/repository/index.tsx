@@ -18,7 +18,9 @@ import rehypeSanitize from "rehype-sanitize";
 interface RepositoryProps {
     name: string;
     description: string;
-    login: string;
+    owner: {
+        login: string;
+    };
     created_at: string;
     watchers: number;
     html_url: string;
@@ -92,7 +94,7 @@ export function Repository() {
                                 VOLTAR
                             </Link>
                             <Link
-                                to={repositoryData?.html_url}
+                                to={repositoryData?.html_url || ""}
                                 target="_blank"
                                 rel="noopener noreferrer"
                             >
@@ -109,7 +111,9 @@ export function Repository() {
                         <div className={styles.githubProfileStatistics}>
                             <ul>
                                 <ProfileStatistic
-                                    statistc={repositoryData?.owner?.login}
+                                    statistc={
+                                        repositoryData?.owner?.login || ""
+                                    }
                                 >
                                     <BiLogoGithub
                                         className={styles.customIcon}
@@ -117,7 +121,7 @@ export function Repository() {
                                 </ProfileStatistic>
 
                                 <ProfileStatistic
-                                    statistc={repositoryData?.created_at}
+                                    statistc={repositoryData?.created_at || ""}
                                 >
                                     <MdDateRange
                                         className={styles.customIcon}

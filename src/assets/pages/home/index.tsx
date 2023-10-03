@@ -8,6 +8,7 @@ interface RepositoriesProps {
     name: string;
     created_at: string;
     description: string;
+    daysSinceCreation: number;
 }
 
 export function Home() {
