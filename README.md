@@ -26,7 +26,7 @@
 
 <br>
 
-O GithubBlog é uma aplicação desenvolvida em ReactJS que consome a API do GitHub para exibir informações sobre os repositórios de um usuário. Na rota principal ("/"), são exibidos detalhes do perfil do usuário, incluindo foto de perfil, bio, empresa, número de seguidores e um link para acessar o perfil no GitHub. Abaixo, são listados todos os repositórios públicos do usuário, permitindo a pesquisa por nome do repositório ou descrição do projeto. Clicando em um repositório, o usuário é redirecionado para a rota "/links", onde pode visualizar detalhes como título, descrição, tempo desde a criação do repositório, número de visualizações e o conteúdo do arquivo README.md. Além disso, há um botão para acessar o repositório diretamente.
+O GithubBlog é uma aplicação desenvolvida em ReactJS que consome a API do GitHub para exibir informações sobre os repositórios de um usuário. Na rota principal ("/"), são exibidos detalhes do perfil do usuário, incluindo foto de perfil, bio, empresa, número de seguidores e um link para acessar o perfil no GitHub. Abaixo, são listados todos os repositórios públicos do usuário, permitindo a pesquisa por nome do repositório ou descrição do projeto. Clicando em um repositório, o usuário é redirecionado para a rota "/repository", onde pode visualizar detalhes como título, descrição, tempo desde a criação do repositório, número de visualizações e o conteúdo do arquivo README.md. Além disso, há um botão para acessar o repositório diretamente.
 
 -[Visite o projeto online](https://github-blog-six-indol.vercel.app/)
 
@@ -54,7 +54,7 @@ Este projeto foi desenvolvido utilizando as seguintes tecnologias:
     -   Exibe detalhes do perfil do usuário, incluindo foto, bio, empresa, número de seguidores e link para o perfil no GitHub.
     -   Lista todos os repositórios públicos do usuário.
     -   Permite pesquisa por nome do repositório ou descrição.
--   **Rota "/links"**:
+-   **Rota "/reposotory"**:
     -   Exibe título, descrição, tempo desde a criação do repositório e número de visualizações.
     -   Fornece um botão para acessar o repositório no GitHub.
     -   Apresenta o conteúdo do arquivo README.md do repositório.
@@ -68,7 +68,7 @@ Este projeto foi desenvolvido utilizando as seguintes tecnologias:
 
 Para executar o projeto localmente, siga estas etapas:
 
-1. Clone o repositório: `git clone https://github.com/seu-usuario/GithubBlog.git`
+1. Clone o repositório: `git clone https://github.com/vhpaula/GithubBlog.git`
 2. Acesse a pasta do projeto: `cd GithubBlog`
 3. Instale as dependências: `npm install` ou `yarn install`
 4. Inicie o servidor de desenvolvimento: `npm start` ou `yarn start`
@@ -84,7 +84,7 @@ Para executar o projeto localmente, siga estas etapas:
 -   **Pesquisar Repositórios:**
     -   Na rota principal ("/"), utilize o campo de pesquisa para filtrar os repositórios por nome ou descrição.
 -   **Visualizar Detalhes do Repositório:**
-    -   Clique em um repositório para ser redirecionado para a rota "/links" e veja detalhes como título, descrição, tempo desde a criação e número de visualizações.
+    -   Clique em um repositório para ser redirecionado para a rota "/repository" e veja detalhes como título, descrição, tempo desde a criação e número de visualizações.
     -   Utilize o botão para acessar diretamente o repositório no GitHub.
     -   O conteúdo do arquivo README.md do repositório é exibido na página.
 
